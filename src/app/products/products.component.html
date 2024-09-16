@@ -1,0 +1,11 @@
+<main class="container">
+  <h1>Products</h1>
+  <div class="products-container">
+    <div *ngFor="let product of productsArray" class="card">
+      <img [src]="product.image" alt="">
+      <h3>{{product.title}}</h3>
+      <p>{{product.price}}</p>
+      <a [routerLink]="['/',product.id]" >show more</a>
+    </div>
+  </div>
+</main>

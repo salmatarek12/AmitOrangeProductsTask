@@ -1,0 +1,22 @@
+.container{
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+}
+.products-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    margin: 48px;
+    width:200px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img{
+    width:100px;
+    max-width: 100%;
+}
